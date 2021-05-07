@@ -269,8 +269,7 @@ void archivo(char *valor1)
                 maximos << str + ";"
                         << "Estudiante " << str + ";" << notmax[c];
                 maximos << "\n";
-                //std::cout << maximos1[c] << std::endl;
-                //std::cout << notmax[c] << std::endl;
+                
             }
             maximos.close();
         }
@@ -288,8 +287,7 @@ void archivo(char *valor1)
                 artistico << str + ";"
                           << "Estudiante " << str + ";" << notmax1[c];
                 artistico << "\n";
-                //std::cout << maximos1[c] << std::endl;
-                //std::cout << notmax[c] << std::endl;
+                
             }
             artistico.close();
         }
@@ -307,8 +305,7 @@ void archivo(char *valor1)
                 humanismo << str + ";"
                           << "Estudiante " << str + ";" << notmax2[c];
                 humanismo << "\n";
-                //std::cout << maximos1[c] << std::endl;
-                //std::cout << notmax[c] << std::endl;
+                
             }
             humanismo.close();
         }
